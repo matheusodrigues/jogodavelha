@@ -2,6 +2,10 @@ package com.example.atkotlinjogodavelha.atjogodevelha
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.renderscript.Int3
+import android.view.View
+import android.widget.Button
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-        Toast.makeText( context: this, text: "ID: "+cellID, Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "teste",  Toast.LENGTH_SHORT).show()
     }
 
 }
